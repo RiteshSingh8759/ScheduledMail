@@ -16,6 +16,9 @@ import lombok.Data;
 public class SalesPerson 
 {
 	@Id
+	//spijisigji
+	//wepijijij
+	//xsefjeisjpi
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int SalesPerson_id;
 	private String SalesPerson_name;
