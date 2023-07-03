@@ -28,6 +28,7 @@ public class MainController
 	{
 		return new ResponseEntity<SalesPerson>(salesPersonService.saveSalesPerson(salesPerson,user_id),HttpStatus.OK);
 	}
+	//saving the user
 	@PostMapping("/saveUser")
 	public ResponseEntity<User> saveUser(@RequestBody User user)
 	{
