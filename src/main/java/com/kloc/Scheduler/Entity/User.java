@@ -15,6 +15,8 @@ import lombok.Data;
 @Data
 public class User
 {
+	// This class will be storing user information
+	// In user there can be salesperson,manager,Developer
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int User_id;
