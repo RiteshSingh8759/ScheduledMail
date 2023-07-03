@@ -22,6 +22,7 @@ public class MainController
 	private SalesPersonService salesPersonService;
 	@Autowired
 	private UserService userService;
+	//sending mails to salesperson on specific date
 	@PostMapping("/saveSalesPerson/{userId}")
 	public ResponseEntity<SalesPerson> saveSalesPerson(@RequestBody SalesPerson salesPerson,@PathVariable(name="userId") int user_id)
 	{
