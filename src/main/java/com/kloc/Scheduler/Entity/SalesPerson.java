@@ -19,6 +19,7 @@ public class SalesPerson
 	//spijisigji
 	//wepijijij
 	//xsefjeisjpi
+	//commit 
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int SalesPerson_id;
 	private String SalesPerson_name;
